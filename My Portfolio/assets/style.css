@@ -1,0 +1,114 @@
+
+/* .rounded-circle {
+    border-radius: 50%!important;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-width: 3px !important;
+    border-style: solid;
+    border-color: #FFFFFF !important; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(133, 13, 13, 0.19);
+    vertical-align: center;
+} */
+.name-main {
+    text-align: center;
+}
+.home {
+    color: white !important;
+    font-family:'San Serif', cursive;
+}
+html, body {
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}
+
+.about-crd{
+    max-height: 524px;
+    overflow: scroll !important;
+}
+
+/* .language-box {
+    height: 524px;
+    overflow: scroll !important;
+} */
+
+.name-main{
+    color: black;
+}
+.card-text, .name-main, .card-title{
+    font-family:  'Domine', serif;
+}
+/* .lang{
+    height: 180px;
+    width: 100px;
+} */
+#css-image {
+    position: relative;
+    right: -40px;
+}
+/* .card-img-top {
+    height: 300px;
+}
+.lang-2 {
+    width: 120px;
+} */
+#lang-3 {
+    flex: auto;
+}
+body {
+    background-color: grey;
+}
+/* .jumbotron {
+    background-image: url("images/guages.jpg")
+} */
+.home-screen{
+    display: show;
+}
+.linked{
+    margin-left: 3px;
+}
+.portfolio-screen {
+    margin-top: 80px;
+    display: none;
+}
+.contact-screen {
+    margin-top: 80px;
+    display: none;
+   
+}
+/* #textChange {
+    animation-iteration-count: infinite;
+  } */
+.port-div {
+    height: 100%;
+}
+
+.profCard {
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    .language-box {
+        margin-top: 5px;
+    }
+    .about-crd{
+        max-height: 600px !important;
+        overflow: scroll;
+    }
+    .jumbotron {
+        margin-top: 50px;
+    }
+}
+
+.btn {
+    background-color: black;
+}
+
+.card {
+    background-color: grey;
+    margin: auto;
+    text-height: auto;
+    position: relative;
+    font: 1em sans-serif;
+    
+}
